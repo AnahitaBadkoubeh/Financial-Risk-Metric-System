@@ -18,7 +18,6 @@ Table of Contents
 ## Process Flow Chart
 
 Visual representation of the workflow within the Risk Metric Systems, aiding in understanding the overall process and interactions between various components. 
-The flowchart can be found in this directory: "D:\Quantitative Finance 2023-2025\Innovations in Quantitative Finance\New folderiof2024\Anahita Badkoubeh Hezaveh\Risk Metric Project Flowchart.pdf"
 
 ## Assumptions 
 
@@ -34,21 +33,18 @@ The flowchart can be found in this directory: "D:\Quantitative Finance 2023-2025
 ## Configuration File
 
 The configuration file outlines various components for the portfolio configuration. This YAML file includes information on different holdings in the portfolio, along with attributes like risk tolerance, capital, and rebalancing strategy.
-The configuration file can be found in this directory: "D:\Quantitative Finance 2023-2025\Innovations in Quantitative Finance\New folderiof2024\Anahita Badkoubeh Hezaveh\Configuration.yml"
-
+ 
 ## Proof of Concept
 
 This section would demonstrate the viability of the system with a simplified, working version of your project. It includes basic implementations of the risk calculation and reporting features.
-The proof of concept can be found in this directory: "D:\Quantitative Finance 2023-2025\Innovations in Quantitative Finance\New folderiof2024\Anahita Badkoubeh Hezaveh\Proof of Concept.xlsx"
 
 ## Risk Calculation Objects 
 
 The Risk Model file is the analytical core of the risk metric project, responsible for assessing the financial risks of an investment portfolio. It processes portfolio details, fetches historical data, and calculates key risk metrics like VaR and TVaR, alongside summary statistics. 
-The risk model can be found in this directory: "D:\Quantitative Finance 2023-2025\Innovations in Quantitative Finance\New folderiof2024\Anahita Badkoubeh Hezaveh\RiskModel.py"
 
 ## Historical Risk Metrics Reporting and Storing 
 
 The main file loads portfolio configurations, leveraging the Risk Model to calculate risk metrics and summary statistics, and then saving and displaying the results. It acts as the interface between the user's input and the analytical capabilities of the Risk Model.
-The main file can be found in this directory: "D:\Quantitative Finance 2023-2025\Innovations in Quantitative Finance\New folderiof2024\Anahita Badkoubeh Hezaveh\Main.py"
+
 
 
