@@ -1,4 +1,4 @@
-## Financial Risk Metric Systems Objectives Project Overview
+## Risk Metric Systems Objectives Project Overview
 
 This project aims to develop a financial risk analysis system to assess risk metrics of a portfolio. It incorporates several parts to conduct risk metric analysis and reporting.
 Table of Contents
@@ -19,6 +19,7 @@ Table of Contents
 
 Visual representation of the workflow within the Risk Metric Systems, aiding in understanding the overall process and interactions between various components. 
 
+
 ## Assumptions 
 
 - It's assumed that the historical market data fetched via yfinance is accurate and complete.
@@ -33,7 +34,7 @@ Visual representation of the workflow within the Risk Metric Systems, aiding in 
 ## Configuration File
 
 The configuration file outlines various components for the portfolio configuration. This YAML file includes information on different holdings in the portfolio, along with attributes like risk tolerance, capital, and rebalancing strategy.
- 
+
 ## Proof of Concept
 
 This section would demonstrate the viability of the system with a simplified, working version of your project. It includes basic implementations of the risk calculation and reporting features.
@@ -45,6 +46,5 @@ The Risk Model file is the analytical core of the risk metric project, responsib
 ## Historical Risk Metrics Reporting and Storing 
 
 The main file loads portfolio configurations, leveraging the Risk Model to calculate risk metrics and summary statistics, and then saving and displaying the results. It acts as the interface between the user's input and the analytical capabilities of the Risk Model.
-
 
 
