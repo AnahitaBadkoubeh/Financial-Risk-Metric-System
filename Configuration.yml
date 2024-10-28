@@ -1,0 +1,20 @@
+
+
+
+Portfolio_Configuration:
+ Risk_Tolerance: 0.95
+ Historical_Days: 180
+ Seed: 2023-02-20 
+ Capital: 100000
+ Holding_Period: 1
+ Inputs_Parameters:
+  Tickers: ['NVDA', 'JNJ', 'XOM', 'KO', 'MSFT', 'V', 'PG', 'AMZN', 'PFE', 'GOOGL', 'MMM']
+ Weights: "equal" 
+ Datetype: "%Y-%m-%d" 
+ distribution_types: "normal"
+ liquidity_needs: "low"
+ Performance_Benchmark: "S&P 500"
+ File path:
+  risk_result_file_path: "C:\\"
+
+
